@@ -1,0 +1,49 @@
+﻿@{
+    var title = (string)ViewContext.RequestContext.RouteData.Values["id"];
+    title = title.Replace("-", " ");
+    var date = "25 ottobre 2014";
+    var comments_count = 0;
+}
+<!-- Page Title -->
+<div class="section section-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>@title</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <!-- Blog Post -->
+            <div class="col-sm-8">
+                <div class="blog-post blog-single-post">
+                    <div class="single-post-title">
+                        <h3>@title</h3>
+                    </div>
+                    <div class="single-post-info">
+                        <i class="glyphicon glyphicon-time"></i>@date <a href="#" title="Show Comments"><i class="glyphicon glyphicon-comment"></i>@comments_count</a>
+                    </div>
+                    <div class="single-post-image">
+                        <img src="~/Content/img/windowsmakers-banner-555.png" />
+                    </div>
+                    <div class="single-post-content">
+                        <h3>@title</h3>
+                        <p>Apre il sito di Windows Makers, per promuovere la nostra attività alla Fiera Radioamatore 2 di Pordenone, il 15 e il 16 novembre 2014</p>
+                    </div>
+                    <!-- Comments -->
+                    <!-- End Comments -->
+                </div>
+            </div>
+            <!-- End Blog Post -->
+            <!-- Sidebar -->
+            <div class="col-sm-4 blog-sidebar">
+                @Html.Partial("_sponsors")
+                @Html.Partial("_communities")
+            </div>
+            <!-- End Sidebar -->
+        </div>
+    </div>
+</div>

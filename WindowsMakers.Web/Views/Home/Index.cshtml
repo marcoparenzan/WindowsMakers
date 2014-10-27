@@ -1,0 +1,49 @@
+﻿<div class="section">
+    <div class="container">
+        <div class="col-lg-9 blog-posts-wrapper section">
+            <div class="section blog-posts-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <!-- Post -->
+                        <div class="col-md-4 col-sm-6">
+                            <div class="blog-post">
+                                <!-- Post Info -->
+                                <div class="post-info">
+                                    <div class="post-date">
+                                        <div class="date">25 ottobre 2014</div>
+                                    </div>
+                                    <div class="post-comments-count">
+                                        <a href="page-blog-post-right-sidebar.html" title="Show Comments"><i class="glyphicon glyphicon-comment icon-white"></i>0</a>
+                                    </div>
+                                </div>
+                                <!-- End Post Info -->
+                                <!-- Post Image -->
+                                <a href="page-blog-post-right-sidebar.html">
+                                    <img src="~/Content/img/windowsmakers-banner-555.png" class="post-image" />
+                                </a>
+                                <!-- End Post Image -->
+                                <!-- Post Title & Summary -->
+                                <div class="post-title">
+                                    <h3><a href="@Url.Action("Index", "Blog", new { id = "Il-sito-di-Windows-Makers-è-online" })">Il sito di Windows Makers è online</a></h3>
+                                </div>
+                                <div class="post-summary">
+                                    <p>Apre il sito di Windows Makers, per promuovere la nostra attività alla Fiera Radioamatore 2 di Pordenone, il 15 e il 16 novembre 2014</p>
+                                </div>
+                                <!-- End Post Title & Summary -->
+                                <div class="post-more">
+                                    <a href="@Url.Action("Index", "Blog", new { id = "Il-sito-di-Windows-Makers-è-online" })" class="btn btn-small">Leggi</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- End Post -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 section">
+            @Html.Partial("_sponsors")
+            @Html.Partial("_communities")
+        </div>
+    </div>
+</div>
