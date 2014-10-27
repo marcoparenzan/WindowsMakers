@@ -597,6 +597,12 @@
     <Content Include="Views\Team\_MarcoDalPino.cshtml" />
     <Content Include="Views\Team\_EmanueleBartolesi.cshtml" />
     <Content Include="Views\Team\_EricaBarone.cshtml" />
+    <Content Include="Views\Team\DanieleCapoferri.cshtml" />
+    <Content Include="Views\Team\MarcoCasaluce.cshtml" />
+    <Content Include="Views\Team\FrancescoMoro.cshtml" />
+    <Content Include="Views\Team\_DanieleCapoferri.cshtml" />
+    <Content Include="Views\Team\_FrancescoMoro.cshtml" />
+    <Content Include="Views\Team\_MarcoCasaluce.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
