@@ -461,6 +461,9 @@
     <Content Include="Content\img\service-icon\diamond.png" />
     <Content Include="Content\img\service-icon\ruler.png" />
     <Content Include="Content\img\communities\tinyclr.png" />
+    <Content Include="Content\img\team\DanieleCapoferri.jpg" />
+    <Content Include="Content\img\team\MarcoMinerva.png" />
+    <Content Include="Content\img\team\MircoVanini.png" />
     <Content Include="Content\img\technologies\azure-128.png" />
     <Content Include="Content\img\technologies\azure-256.png" />
     <Content Include="Content\img\technologies\azure-512.png" />
@@ -603,6 +606,8 @@
     <Content Include="Views\Team\_DanieleCapoferri.cshtml" />
     <Content Include="Views\Team\_FrancescoMoro.cshtml" />
     <Content Include="Views\Team\_MarcoCasaluce.cshtml" />
+    <Content Include="Views\Team\_MircoVanini.cshtml" />
+    <Content Include="Views\Team\MIrcoVanini.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
