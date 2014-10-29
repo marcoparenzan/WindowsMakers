@@ -462,6 +462,8 @@
     <Content Include="Content\img\service-icon\ruler.png" />
     <Content Include="Content\img\communities\tinyclr.png" />
     <Content Include="Content\img\team\DanieleCapoferri.jpg" />
+    <Content Include="Content\img\team\FrancescoMoro.jpg" />
+    <Content Include="Content\img\team\MarcoCasaluce.jpg" />
     <Content Include="Content\img\team\MarcoMinerva.png" />
     <Content Include="Content\img\team\MircoVanini.png" />
     <Content Include="Content\img\technologies\azure-128.png" />
